@@ -1,0 +1,125 @@
+.menu {
+	color: gray;	
+	
+}
+
+.menu a:link {
+	color: gray;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.top-background {
+		background-color: #304851;
+		height: 5em;
+		
+}
+
+.menu-sm a {
+		color: white;
+		text-decoration: none;
+	    text-transform: uppercase;
+	    font-family: Verdana;
+	    font-size: 90%;
+}
+.text-sm {
+	left: 1%;
+	font-family: Verdana;
+	
+}
+
+.image img {
+	padding-top: 1%;
+	position: absolute;
+	left: -0.05%;
+	width: 99.99%;
+	
+}
+.top-text-big {
+	
+	left: 5%;
+	color: white;
+	font-size: 48px;
+	z-index: 100;
+	font-family: Cambria;
+	
+}
+
+
+.text {
+	left: 5%;
+	color: gray;
+}
+.gray-background {
+	background-color: #d9d9d9;
+	
+}
+
+
+.gray {
+	background-color: #e6e6e6;
+}
+
+.picture {
+	height: 90%;
+}
+
+.grid-text {
+	font-family: Verdana;	
+}
+
+.grid-text p {
+	color: gray;
+}
+.grid-text a {
+	text-decoration: underline;
+}
+
+/*Them thuoc tinh cho menu*/
+#menu div {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 
+#menu ul {
+  position: relative;
+  padding: 0;
+  list-style: none;
+  background-color: transparent;
+}
+ 
+#menu ul:hover li {
+  filter: blur(10px);
+}
+ 
+#menu li {
+  text-align: center;
+  width: fit-content;
+  display: inline-block;
+  transition: 0.5s ease;
+  padding: 20px;
+  text-transform: uppercase;
+}
+ 
+#menu ul li:hover {
+  font-size: 32px;
+  animation: bg 1s ease-in-out forwards;
+  border-radius: 10px;
+  filter: blur(0);
+  cursor: pointer;
+}
+ 
+@keyframes bg {
+  0% {
+    background-color: transparent;
+    color: black;
+  }
+  100% {
+    background-color: darkcyan;
+    color: whitesmoke;
+  }
+}
